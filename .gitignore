@@ -23,3 +23,6 @@ Cargo.lock
 # Python
 .venv/
 docs/site/
+
+# Container image
+**/build/container.tar.gz
