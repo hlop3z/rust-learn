@@ -1,0 +1,38 @@
+site_name: My Docs
+
+# Path Watch
+watch:
+  - overrides
+
+  # Navigation
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  locale: en
+  features:
+    # - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - content.code.annotate
+    # - navigation.expand
+  icon:
+    logo: material/webhook
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
